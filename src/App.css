@@ -1,38 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather|Fira+Sans&display=swap');
+
 .App {
-  text-align: center;
+	margin: 0 auto;
+	color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.location{
+	text-align: center;
+}
+.card {
+	margin: 0 auto;
+	background: linear-gradient(to bottom, red, pink);
+	width: 200px;
+	height: 240px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.city{
+	font-family: 'Merriweather', sans-serif;
+	font-size: 1.6em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.country{
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 1,1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.temp{
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 2rem;
+	font-weight: 200;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.condition{
+	font-family: 'Merriweather', sans-serif;
+	font-size: 1,2rem;
 }
