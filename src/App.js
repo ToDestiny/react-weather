@@ -6,9 +6,9 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <WeatherCard temp={-20} />
-      <WeatherCard temp={20} />
-      <WeatherCard temp={40} />
+      <WeatherCard temp={-10} condition="Drizzy" city="Paris" country="FR" />
+      <WeatherCard temp={20} condition="Rain" city="Melbourne" country="AU" />
+      <WeatherCard temp={40} condition="Tornado" city="London" country="GB" />
     </div>
   );
 }
