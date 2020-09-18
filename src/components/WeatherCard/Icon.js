@@ -18,47 +18,33 @@ import styled from "@emotion/styled";
 const Icon = props => {
   const Icon = styled.img`width: 40%;`;
 
-  let icon = "";
   switch (props.condition) {
     case "Clouds":
       return <Icon src={Clouds} alt="Weather Icon" />;
-      break;
     case "Clear":
       return <Icon src={Clear} alt="Weather Icon" />;
-      break;
     case "Haze":
       return <Icon src={Haze} alt="Weather Icon" />;
-      break;
     case "Hail":
       return <Icon src={Hail} alt="Weather Icon" />;
-      break;
     case "Fog":
-      return <Icon src={Mist} alt="Weather Icon" />;
-      break;
+      return <Icon src={Fog} alt="Weather Icon" />;
     case "Tornado":
       return <Icon src={Tornado} alt="Weather Icon" />;
-      break;
     case "Dust":
       return <Icon src={Dust} alt="Weather Icon" />;
-      break;
     case "Mist":
       return <Icon src={Mist} alt="Weather Icon" />;
-      break;
     case "Snow":
       return <Icon src={Snow} alt="Weather Icon" />;
-      break;
     case "Rain":
       return <Icon src={Rain} alt="Weather Icon" />;
-      break;
     case "Drizzle":
       return <Icon src={Drizzle} alt="Weather Icon" />;
-      break;
     case "Thunderstorm":
       return <Icon src={Thunderstorm} alt="Weather Icon" />;
-      break;
     default:
       return <Icon src={Mist} alt="Weather Icon" />;
-      break;
   }
 };
 

@@ -8,6 +8,7 @@ const Location = ({ city, country }) => {
     font-size: 1.6em;
   `;
   const Country = styled.h3`
+    text-align: center;
     font-family: "Fira Sans", sans-serif;
     font-size: 1.1rem;
   `;

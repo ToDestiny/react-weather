@@ -8,9 +8,9 @@ const Condition = ({ temp, condition }) => {
     font-weight: 200;
   `;
   const State = styled.h3`
+    text-align: center;
     font-family: "Merriweather", sans-serif;
     font-size: 1.2rem;
-    text-align= center;
   `;
 
   return (
